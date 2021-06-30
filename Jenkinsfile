@@ -10,7 +10,6 @@ pipeline {
 
     stage('Push to git') {
       steps {
-        sh "git config --local credential.helper"
         sh "git push origin develop:master"
       }
     }
