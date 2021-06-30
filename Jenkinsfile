@@ -11,7 +11,7 @@ pipeline {
     stage('Complete') {
       steps {
         echo 'merging'
-        input 'Do you want to proceed'
+        input 'Merge test'
       }
     }
 
