@@ -8,10 +8,9 @@ pipeline {
       }
     }
 
-    stage('Complete') {
+    stage('Push to git') {
       steps {
-        echo 'merging'
-        input 'Merge test 2'
+        sh "git push origin develop:master"
       }
     }
 
