@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('pipeline') {
       steps {
-        echo 'Setting up trigger'
+        echo 'Setting a  trigger'
       }
     }
 
